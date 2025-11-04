@@ -66,10 +66,10 @@ function HowItWorks({ darkMode }) {
                 </div>
               )}
 
-              <div className={`relative p-6 rounded-2xl border-2 transition-all group ${
+              <div className={`relative p-6 rounded-2xl border-2 transition-all group hover:border-[#00b67f] ${
                 darkMode 
-                  ? 'bg-gray-800 border-gray-700 hover:border-lime-500' 
-                  : 'bg-white border-gray-100 hover:border-lime-500'
+                  ? 'bg-gray-800 border-gray-700' 
+                  : 'bg-white border-gray-100'
               }`}>
                 <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#00b67f] text-white font-bold text-lg rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                   {step.number}

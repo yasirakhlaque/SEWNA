@@ -13,7 +13,7 @@ function HeroVisual() {
       {images.map((img) => (
         <div
           key={img.id}
-          className={`absolute ${img.pos} ${img.size} rounded-2xl bg-gradient-to-br ${img.color} shadow-2xl cursor-pointer overflow-hidden group hover:scale-105 transition-transform duration-300`}
+          className={`absolute ${img.pos} ${img.size} rounded-2xl bg-gradient-to-br ${img.color} shadow-2xl cursor-pointer hover:z-2 overflow-hidden group hover:scale-105 transition-transform duration-300`}
         >
           <div className="w-full h-full flex items-center justify-center text-white/20">
             <BsPalette className="text-6xl" />

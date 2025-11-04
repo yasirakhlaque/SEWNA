@@ -86,8 +86,8 @@ function FeaturedDesigners({ darkMode }) {
 
                 <button className={`w-full py-3 font-medium rounded-full transition-colors ${
                   darkMode 
-                    ? 'bg-lime-600 text-white hover:bg-lime-500' 
-                    : 'bg-gray-900 text-white group-hover:bg-lime-500'
+                    ? 'bg-[#00b67f] text-white hover:bg-emerald-600' 
+                    : 'bg-gray-900 text-white group-hover:bg-emerald-600'
                 }`}>
                   View Profile
                 </button>
@@ -99,7 +99,7 @@ function FeaturedDesigners({ darkMode }) {
         <div className="text-center mt-12">
           <button className={`px-8 py-4 border-2 font-semibold rounded-full transition-all inline-flex items-center space-x-2 ${
             darkMode 
-              ? 'bg-gray-800 border-lime-500 text-lime-400 hover:bg-gray-700' 
+              ? 'bg-gray-800 border-[#00b67f] text-[#00b67f] hover:bg-gray-700' 
               : 'bg-white border-gray-900 text-gray-900 hover:bg-gray-50'
           }`}>
             <span>View All Designers</span>
